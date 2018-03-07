@@ -1,0 +1,72 @@
+@media (max-width: 720px) {
+  .card-deck {
+    display: flex;
+    flex-flow: column;
+    justify-content: center; }
+
+  .card {
+    height: 70vh;
+    width: 100vw; } }
+#globalWrapper {
+  background-color: #d4d4d4; }
+
+#globalHeader {
+  text-align: center;
+  background-color: #9a879a;
+  padding: 0.5rem 0 0 0; }
+
+#globalNav {
+  background-color: #594c66; }
+
+button .navbar-toggler-icon {
+  color: #fff; }
+
+.navbar-brand {
+  font-size: 5vmax;
+  font-weight: lighter;
+  text-transform: capitalize;
+  padding-bottom: 0.7rem;
+  letter-spacing: 0.5rem; }
+
+.navbar-brand:hover {
+  color: #fff; }
+
+#globalNav ul li a, .card-deck a {
+  color: #fff;
+  margin-left: 1.7rem;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: normal; }
+
+#globalNav ul li a:hover, .card-deck a:hover {
+  color: #aba4aa;
+  text-decoration: none; }
+
+.navbar-brand {
+  color: #fff; }
+
+#welcome {
+  background-image: url("../../img/moors_sunset.jpg");
+  height: 30vmax;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3vh; }
+  #welcome button {
+    background-color: #7f458e;
+    padding: 0.5rem 2.5rem; }
+
+.card {
+  background-color: #594c66;
+  max-height: 30vh; }
+  .card img {
+    max-height: 72%; }
+
+/*
+  Styles for pages:
+*/
+#mainContentWrapper {
+  margin-top: 1rem; }
+  #mainContentWrapper article {
+    padding: 3vmax; }
+
+/*# sourceMappingURL=styles.css.map */

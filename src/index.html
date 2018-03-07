@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Hello, world!</title>
+  </head>
+  <body id="globalWrapper">
+    <!-- Start of the Global Navigation -->
+    <header id="globalHeader">
+    <a class="navbar-brand" href="#">Explore Northumberland</a>
+    <nav  class="navbar navbar-expand-lg  sticky-top navbar-dark" id="globalNav">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+ <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
+   <ul class="navbar-nav">
+     <li class="nav-item active">
+       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="./pages/hadrian_wall.html">Hadrian’s Wall</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="./pages/bamburgh_castle.html"> Bamburgh Castle </a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="./pages/Lindisfarne.html">Lindisfarne</a>
+     </li>
+   </ul>
+ </div>
+    </nav>
+    </header>
+    <section class="container text-center d-flex align-items-center justify-content-center text-white" id="welcome">
+    <div >
+      <h1 class="display-2">Discover the North-East</h1>
+      <button class="mt-4 btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/bFpTYfDLuMU" data-target="#myModal">Discover</button>
+    </div>
+    </section>
+
+    <section class="container mt-1 text-center text-white">
+      <div class="row no-gutters card-deck">
+    <div class="card mb-3 col-sm-4 border-0">
+      <img class="card-img-top" src="../img/wall.jpeg" alt="Card image cap">
+      <a href="./pages/hadrian_wall.html">
+      <div class="card-body">
+        <h5 class="card-title">Hadrian’s Wall</h5>
+      </div>
+      </a>
+    </div>
+    <div class="card mb-3 col-sm-4 border-0">
+      <img class="card-img-top" src="../img/castle.jpg" alt="Card image cap">
+      <a href="./pages/bamburgh_castle.html">
+      <div class="card-body">
+        <h5 class="card-title">Bamburgh Castle</h5>
+      </div>
+      </a>
+    </div>
+    <div class="card mb-3 col-sm-4 border-0">
+      <img class="card-img-top" src="../img/the-holy-island-of-lindisfarne.jpg" alt="Card image cap">
+      <a href="./pages/Lindisfarne.html">
+      <div class="card-body">
+        <h5 class="card-title">Lindisfarne</h5>
+      </div>
+      </a>
+    </div>
+  </div>
+  </section>
+  <footer id="globalFooter" class="text-center">
+    <hr>
+    <p>Copyright 2018</p>
+  </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+</div>
+      </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="javascript/actions.js" ></script>
+  </body>
+</html>
