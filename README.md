@@ -1,2 +1,2 @@
 # Hello World!
-This is <mark>some</mark> text.
+This is <mark style="color:'orange'">some</mark> text.
